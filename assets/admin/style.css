@@ -1,0 +1,22 @@
+/*style*/
+.logo_position__ground {
+    width: 98%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 13px 22px -5px rgba(0, 0, 0, .06);
+
+}
+
+.logo_position__ground img {
+    width: 140px;
+    height: auto;
+}
+
+
+.update__uslp {
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: 20px;
+}
