@@ -31,7 +31,7 @@ final class wooneapi_permission
 
         add_action('plugins_loaded', [$this, 'markup_template']); // part 2 Call on "markup_template".
 
-        include_once(plugin_dir_path(__FILE__) . 'includes/action/authentication.php'); //authentication
+        include_once(plugin_dir_path(__FILE__) . 'includes/action/authentication.php'); //authentication.
     }
 
     // A single instance
@@ -44,7 +44,6 @@ final class wooneapi_permission
 
         return $instance;
     }
-
 
     /*====================Part 2======================*/
 
